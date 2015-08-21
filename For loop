@@ -1,0 +1,10 @@
+#for loop example
+
+x=0
+for num in range (0,70):
+    if x==49:
+        print("The number 49 has been found")
+        break
+    else:
+        print (num, "is not 49")
+        x=x+1
